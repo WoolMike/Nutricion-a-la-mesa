@@ -8,3 +8,12 @@
     height: 230px;
     margin-left: 100px;
 }
+
+.color-personalizado{
+    background-color: #5b3a29;
+    color: white;
+}
+
+.color-personalizado a{
+    color: white;
+}
