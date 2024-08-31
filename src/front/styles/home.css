@@ -3,6 +3,23 @@
     min-height: 10px
 } */
 
+body {
+    background-color: #fcf7f0; /* Fondo suave */
+    font-family: 'Arial', sans-serif;
+    color: #5b3a29; /* Texto en marrón oscuro */
+}
+
+h1 {
+    color: #5b3a29; /* Marrón oscuro */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    color: #5b3a29; /* Marrón oscuro */
+}
+
 .imagen1{
     width: 345px;
     height: 230px;

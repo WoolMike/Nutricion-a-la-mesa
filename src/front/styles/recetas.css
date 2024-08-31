@@ -1,0 +1,122 @@
+body {
+    background-color: #fcf7f0; /* Fondo suave */
+    font-family: 'Arial', sans-serif;
+    color: #5b3a29; /* Texto en marrón oscuro */
+}
+
+h1 {
+    color: #5b3a29; /* Marrón oscuro */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    color: #5b3a29; /* Marrón oscuro */
+}
+
+.tags .badge {
+    margin-right: 5px;
+    background-color: #cd853f; /* Marrón claro */
+    color: white;
+    font-size: 0.9rem;
+}
+
+.btn-main {
+    background-color: #a0522d; /* Siena quemado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #f4a460; /* Arenisca */
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #5b3a29; /* Marrón oscuro */
+    border: 2px solid #5b3a29;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #f4a460; /* Arenisca */
+    color: white;
+}
+
+.author-info img {
+    margin-right: 10px;
+}
+
+.author-info span {
+    color: #5b3a29; /* Marrón oscuro */
+    margin-right: 10px;
+}
+
+.content-left {
+    padding: 20px;
+}
+
+.content-right {
+    text-align: center;
+    padding: 20px;
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.table th {
+    background-color: #D2691E; /* Color otoñal para los encabezados de sección */
+    color: white; /* Texto blanco */
+    border: none;
+}
+
+.table td {
+    border-top: none; /* Eliminar la línea superior de las celdas */
+    padding: 0.75rem 0.5rem;
+}
+
+
+.description-box {
+    background-color: #EFE5DA; /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #5B3A29; /* Texto en marrón oscuro */
+    
+}
+
+.creator-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #8B4513; /* Texto en marrón otoñal */
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.author-info img {
+    margin-right: 10px;
+}
+
+.content-left, .content-right {
+    padding: 20px;
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
