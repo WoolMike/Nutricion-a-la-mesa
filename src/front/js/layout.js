@@ -1,4 +1,4 @@
-git import React from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 import { BackendURL } from "./component/backendURL";
@@ -8,6 +8,7 @@ import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
 import{Recetas} from "./pages/recetas";
+import {Post} from "./pages/post"
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";

@@ -125,10 +125,31 @@ export const Home = () => {
 
 						</div>
 					</div>
-					<div>
+					<div className="mt-5">
 						<div class="card">
 							<div class="card-body text-center">
-								This is some text within a card body.
+								<div className="container-fluid">
+									<div class="row align-items-center">
+										<div class="col-6">
+
+											<h1>Suscribete al newsletter: </h1>
+
+										</div>
+										<div className="col-6">
+											<div className="email-box">
+												<input type="email" placeholder="name@example.com"></input>	
+												<i class="fa-regular fa-envelope"></i>
+											</div>
+											
+
+										</div>
+
+
+									</div>
+								</div>
+
+
+
 							</div>
 						</div>
 					</div>

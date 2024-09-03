@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../styles/home.css";
+import { Link } from "react-router-dom";
 
 
 export const Navbar = () => {
@@ -14,11 +14,13 @@ export const Navbar = () => {
 					</button>
 					<div className="collapse navbar-collapse " id="navbarNavDropdown">
 						<ul className="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-							<li class="nav-item ">
-								<a class="nav-link active" aria-current="page" href="/">Recetas</a>
+							<li className="nav-item">
+		
+									<a className="nav-link" aria-current="page" href="/recetas">Recetas</a>
+								
 							</li>
-							<li class="nav-item ">
-								<a class="nav-link active" aria-current="page" href="/">Post</a>
+							<li className="nav-item ">
+								<a className="nav-link" aria-current="page" href="/post">Post</a>
 							</li>
 						</ul>
 					</div>
